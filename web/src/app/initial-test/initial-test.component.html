@@ -11,9 +11,9 @@
             <td>{{record.id}}</td>
             <td>{{record.timestamp}}</td>
             <td>{{record.freq}}</td>
-            <td>{{record.msg}}</td>
+            <td>{{record.msg_body}}</td>
             <td>
-                <audio controls src={{record.filePath}} class="audio-control" type="audio/mpeg"></audio>
+                <audio controls src={{record.path_to_recording}} class="audio-control" type="audio/mpeg"></audio>
             </td>
         </tr>
     </table>

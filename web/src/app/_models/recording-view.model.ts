@@ -26,5 +26,5 @@ export class RecordingView {
 
 export class RecordingListView {
     public lastid: number;
-    public recording_list: Array<RecordingView>;
+    public recordings_list: Array<RecordingView>;
 }

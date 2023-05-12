@@ -38,8 +38,9 @@ export class InitialTestComponent implements OnInit {
     ).subscribe(result => {
       if (result != null) {
         // this.recordingViewList.concat(result);
-        this.recordingViewList = result.recording_list;
-        console.log(result.recording_list)
+        this.recordingViewList.concat(result.recordings_list);
+        console.log(result.recordings_list);
+        console.log(this.recordingViewList);
       }
     })
   }
