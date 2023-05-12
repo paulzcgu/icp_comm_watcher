@@ -1,0 +1,20 @@
+{
+  "name": "icp_comm_watcher",
+  "version": "1.0.0",
+  "description": "An application watch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.3.3"
+  },
+  "dependencies": {
+    "angular": "^1.8.2"
+  }
+}

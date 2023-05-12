@@ -1,0 +1,20 @@
+<div>
+    <table class="test-table">
+        <tr>
+            <th>Id</th>
+            <th>Timestamp</th>
+            <th>Freq</th>
+            <th>Message</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let record of recordingViewList">
+            <td>{{record.id}}</td>
+            <td>{{record.timestamp}}</td>
+            <td>{{record.freq}}</td>
+            <td>{{record.msg}}</td>
+            <td>
+                <audio controls src={{record.filePath}} class="audio-control" type="audio/mpeg"></audio>
+            </td>
+        </tr>
+    </table>
+</div>

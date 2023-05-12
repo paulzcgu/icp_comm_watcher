@@ -1,0 +1,51 @@
+#app-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0;
+}
+
+.headerDiv {
+  background-color: #dbe7f0;
+  padding: 3px 0;
+  width: 100%;
+}
+
+.agilent-logo {
+  float: left;
+}
+
+.app-header-product-title {
+  color: #3c6c90;
+  font-size: 1.7em;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1); */
+}
+
+  .app-header-product-title span {
+    font-size: 0.9em;
+    color: #5d93bb;
+  }
+.space-left-more {
+  padding-left: 200px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.app-header-logout {
+  float: right;
+  padding: 15px 20px 0 0;
+  min-width: 200px;
+}
+
+::ng-deep .app-header-product-title .popover-bottom .popover-body
+{
+  padding: 0.5rem 0.75rem !important;
+}
+.env-name {
+  color: #0000FF!important;
+}

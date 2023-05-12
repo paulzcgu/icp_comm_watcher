@@ -1,0 +1,63 @@
+/* Specifies the size of the audio container */
+audio {
+    width: 250px;
+    height: 25px;
+  }
+  
+  audio::-webkit-media-controls-panel {
+    -webkit-justify-content: center;
+    height: 25px;
+  }
+  
+  /* Removes the timeline
+  audio::-webkit-media-controls-timeline {
+    display: none !important;
+  } */
+/* hide volume icon */
+audio::-webkit-media-controls-mute-button { 
+    display: none !important; 
+} 
+audio::-webkit-media-controls-volume-slider {
+    display: none !important; 
+}
+/* Removes the time stamp */
+audio::-webkit-media-controls-current-time-display {
+    display: none;
+  }
+  audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+
+.test-table {
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .test-table tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+  
+    .test-table tr {
+        border: 1px solid lightgray;
+        white-space: nowrap;
+    }   
+
+    .test-table td {
+        text-align: center;
+        padding: 5px 10px;
+        border: 1px solid lightgray;
+    }
+  
+    .test-table th {
+        font-size: 1.1em;
+        font-weight: 600;
+        padding: 10px 1px;
+        background-color: #BBD1D1;
+        border: 1px solid lightgray;
+        text-align: center;
+    }
